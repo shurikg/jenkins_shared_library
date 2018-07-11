@@ -1,0 +1,31 @@
+STEP DESCRIPTION
+<p></p>
+Paramters:
+<p></p>
+
+<dl>
+    <dt><code>MANDATORY PARAMETER1</code></dt>
+    <dd>DESCRIPTION</dd>
+    
+    <dt><code>MANDATORY PARAMETER2</code></dt>
+    <dd>DESCRIPTION</dd>
+    
+    <dt><code>OPTIONAL PARAMETER1</code></dt>
+    <dd>Optional. DESCRIPTION. Default is <code>'XXXX'</code></dd>
+
+    <dt><code>OPTIONAL PARAMETER2</code></dt>
+    <dd>Optional. DESCRIPTION. Default is <code>'XXXX'</code></dd>
+</dl>    
+<p></p> 
+Return:
+<p></p>
+
+<dl>
+    <dt><code>RETURN</code></dt>
+    <dd>DESCRIPTION</dd>
+</dl>    
+<p></p>
+<dl>
+    <dt>Example:</dt>
+    <dd>STEP_NAME PARAM1: 'XXX', PARAM2: 'XXX'</dd>
+</dl>
