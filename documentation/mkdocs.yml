@@ -1,0 +1,25 @@
+site_name: Demo documentation for Jenkins shared library
+pages:
+    - Home: index.md
+    - 'Library steps':
+        - simpleStep: steps/simpleStep.md
+    - 'Required Plugins': jenkins/requiredPlugins.md
+
+theme:
+    name: 'material'
+    palette:
+      primary: 'teal'
+      accent: 'purple'
+extra:
+    font:
+      text: 'Slabo 13px'
+      code: 'Ubuntu Mono'
+markdown_extensions:
+    - admonition
+    - codehilite(guess_lang=false)
+    - toc(permalink=true)
+    - footnotes
+    - pymdownx.superfences
+docs_dir: docs
+site_dir: docs-gen
+repo_url: https://YOU-SITE
