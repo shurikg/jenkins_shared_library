@@ -22,7 +22,7 @@
 ```
 * The mandatory parameters should be check in the method and failed if it’s not define
 ```groovy
-    if (! parameters.containsKey('mandatory_param1')) {
+    if (! parameters.containsKey('mandatory_param1') || ! parameters['mandatory_param1']) {
           error "The [mandatory_param1] parameter doesn't exists" 
     }
 ```
