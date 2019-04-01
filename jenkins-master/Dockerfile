@@ -2,7 +2,7 @@ FROM jenkins/jenkins:lts-slim
 
 USER root
 
-COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
+COPY jenkins-master/plugins.txt /usr/share/jenkins/ref/plugins.txt
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
