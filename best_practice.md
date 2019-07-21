@@ -1,7 +1,7 @@
 # General
 * The shared library should be independent to other shared libraries
 * The shared library version should be done with semantic versioning rules (https://semver.org) 
-* The shared library doesn’t need to define any global variables it it’s not require (env.XXX)
+* The shared library doesn’t need to define any global variables if it’s not require (env.XXX)
 * The shared library should run in sandbox, avoid special security approval
 * The shared library code should not contains any hard coded values. The hardcoded values can be the default value for optional parameters.
 
